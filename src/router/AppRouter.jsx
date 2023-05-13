@@ -12,6 +12,7 @@ import AboutPage from "../pages/AboutPage";
 import CustomersPage from "../pages/CustomersPage";
 import CustomerPage from "../pages/CustomerPage";
 import UseStatePage from "../pages/UseStatePage";
+import EjercicioPage from "../pages/EjercicioPage";
 
 const AppRouter = () => {
   return (
@@ -25,6 +26,8 @@ const AppRouter = () => {
             <Route path="/customers" element={<CustomersPage />} />
             <Route path="/customers/:id" element={<CustomerPage />} />
             <Route path="/use-state" element={<UseStatePage/>} />
+            <Route path="/ejercicio" element={<EjercicioPage/>} />
+
 
             <Route path="/*" element={<Navigate to="/" />} />
           </Routes>
