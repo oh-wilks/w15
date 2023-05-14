@@ -50,7 +50,12 @@ const NavBar = () => {
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/ejercicio">
-                Ejercicio
+                Posts
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/use-effect">
+                Use Effect
               </NavLink>
             </li>
           </ul>
