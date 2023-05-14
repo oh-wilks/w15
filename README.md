@@ -1,3 +1,2 @@
-# React Page
 
 ##Hook Implementation
